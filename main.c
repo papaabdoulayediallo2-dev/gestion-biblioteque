@@ -5,8 +5,9 @@ int main()
 {
     printf("Hello world!\n");
      ajouterUtilisateur();
-    //afficherUtilisateurs();
-    //connexion();
+    afficherUtilisateurs();
+    supprimer_utilisateur();
+    connexion();
 
     return 0;
 }
